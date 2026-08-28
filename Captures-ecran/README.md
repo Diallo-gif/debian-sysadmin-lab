@@ -12,3 +12,13 @@ Les deux machines virtuelles ont été différenciées afin d'avoir un serveur e
 - `debian-cli01` : poste d'administration et de test
 
 Les captures montrent la vérification du hostname sur chacune des machines.
+## Phase 01 - Comprendre le système Debian
+
+Exploration de plusieurs répertoires importants afin de comprendre l'organisation du système et de savoir où rechercher une information lors d'un diagnostic.
+
+- `/etc` : configurations du système et des services
+- `/dev` : périphériques du système
+- `/proc` : informations sur le système et les processus
+- `/var/log` : journaux du système et des services
+
+L'objectif est de savoir où chercher selon le type de problème rencontré.
