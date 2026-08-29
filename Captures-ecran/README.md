@@ -65,3 +65,10 @@ Utilisation de `grep` ou `awk` pour filtrer une sortie et afficher uniquement l�
 `find . -type f | grep "export"`
 
 `find . -type f | awk '/export/'`
+### Extraire une colonne d’un fichier structuré
+
+Utilisation de `cut` et `awk` pour extraire une colonne d’un fichier CSV.
+
+`cut -d ',' -f 1 employes.csv`
+
+`awk -F ',' '{print $1}' employes.csv`
