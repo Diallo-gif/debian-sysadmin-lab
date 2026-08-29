@@ -53,3 +53,8 @@ Objectif : retrouver rapidement un fichier sans parcourir manuellement l’arbor
 
 Commande utilisée :
 `find / -type f -name "*.txt"`
+Utilisation de `grep` et `less` pour rechercher une information précise dans un fichier texte.
+
+`grep -i "sauvegarder" notes_data.txt`
+
+`less notes_data.txt`
