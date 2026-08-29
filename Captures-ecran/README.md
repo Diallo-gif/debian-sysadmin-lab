@@ -41,3 +41,11 @@ Cette phase consiste à manipuler des fichiers et des répertoires dans un envir
 ## Objectif
 
 Être capable de manipuler les fichiers et répertoires depuis le terminal et de comprendre les problèmes de permissions rencontrés lors des opérations d'administration.
+
+## Recherche de fichiers
+
+Objectif : retrouver rapidement un fichier sans parcourir manuellement l’arborescence.
+
+- `find` : recherche directement dans l’arborescence.
+- `locate` : recherche rapidement via une base de données indexée.
+- `plocate` : paquet utilisé sur Debian 13 pour fournir la commande `locate`.
