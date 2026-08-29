@@ -58,3 +58,10 @@ Utilisation de `grep` et `less` pour rechercher une information précise dans un
 `grep -i "sauvegarder" notes_data.txt`
 
 `less notes_data.txt`
+### Filtrer la sortie d’une commande
+
+Utilisation de `grep` ou `awk` pour filtrer une sortie et afficher uniquement l’information recherchée.
+
+`find . -type f | grep "export"`
+
+`find . -type f | awk '/export/'`
