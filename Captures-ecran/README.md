@@ -49,3 +49,7 @@ Objectif : retrouver rapidement un fichier sans parcourir manuellement l’arbor
 - `find` : recherche directement dans l’arborescence.
 - `locate` : recherche rapidement via une base de données indexée.
 - `plocate` : paquet utilisé sur Debian 13 pour fournir la commande `locate`.
+- tilisation de `find` pour rechercher des fichiers selon leur extension.
+
+Commande utilisée :
+`find / -type f -name "*.txt"`
