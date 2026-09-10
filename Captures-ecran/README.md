@@ -38,3 +38,12 @@ Filtrage d'une sortie :
 
 Extraction de colonnes CSV :
 `cut`, `awk`
+## Phase 04 - Utilisateurs et groupes
+
+- Création et gestion des utilisateurs et groupes
+- Attribution des utilisateurs aux groupes métiers
+- Vérification des appartenances et des rôles
+- Gestion des mots de passe et des comptes
+- Verrouillage, désactivation et réactivation de comptes
+- Gestion et test des permissions d'accès
+
