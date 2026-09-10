@@ -53,3 +53,12 @@ Extraction de colonnes CSV :
 - Tests de création et modification de fichiers
 - Utilisation de `umask`, `setgid` et du sticky bit
 - Gestion avancée des permissions avec les ACL
+## Phase 06 - Gestion des paquets et maintenance
+- Identification des dépôts APT configurés
+- Actualisation et mise à jour des paquets
+- Recherche et installation de paquets
+- Vérification des paquets et de leurs versions
+- Identification du paquet associé à un fichier
+- Suppression, purge et réinstallation de paquets
+- Maintenance contrôlée du système avec `apt` et `dpkg`
+  
