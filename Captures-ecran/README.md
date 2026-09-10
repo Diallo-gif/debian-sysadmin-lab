@@ -61,4 +61,12 @@ Extraction de colonnes CSV :
 - Identification du paquet associé à un fichier
 - Suppression, purge et réinstallation de paquets
 - Maintenance contrôlée du système avec `apt` et `dpkg`
+## Phase 07 - Réseau Linux et diagnostic
+- Identification des interfaces réseau et des adresses IPv4
+- Vérification du préfixe, de la passerelle, des DNS et de la route par défaut
+- Tests de communication entre `debian-srv01` et `debian-cli01`
+- Tests IP, Internet et résolution DNS
+- Identification des ports et sockets en écoute
+- Comparaison des modes VMware : NAT, Bridged et Host-only
+- Méthode de diagnostic réseau en 5 étapes
   
