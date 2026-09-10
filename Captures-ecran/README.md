@@ -46,4 +46,10 @@ Extraction de colonnes CSV :
 - Gestion des mots de passe et des comptes
 - Verrouillage, désactivation et réactivation de comptes
 - Gestion et test des permissions d'accès
-
+## Phase 05 - Permissions et moindre privilège
+- Gestion des permissions sur les dossiers métiers
+- Tests d'accès autorisés et refusés
+- Gestion des droits avec `chmod`, `chown` et `chgrp`
+- Tests de création et modification de fichiers
+- Utilisation de `umask`, `setgid` et du sticky bit
+- Gestion avancée des permissions avec les ACL
