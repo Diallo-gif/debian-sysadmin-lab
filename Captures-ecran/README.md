@@ -69,4 +69,12 @@ Extraction de colonnes CSV :
 - Identification des ports et sockets en écoute
 - Comparaison des modes VMware : NAT, Bridged et Host-only
 - Méthode de diagnostic réseau en 5 étapes
+## Phase 08 - Configuration réseau statique avec Netplan
+- Configuration d'adresses IP statiques
+- Configuration du réseau avec `Netplan`
+- Gestion de la route par défaut et du DNS
+- Vérification de la connectivité entre les VM
+- Tests réseau après application de la configuration
+- Vérification de la persistance après redémarrage
+- Diagnostic d'une erreur de configuration réseau
   
