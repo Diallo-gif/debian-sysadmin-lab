@@ -93,5 +93,13 @@ Extraction de colonnes CSV :
 - Filtrage des logs par service
 - Suivi des événements en temps réel
 - Analyse des événements d'authentification
+## Phase 11 - Archivage, compression et restauration
+- Création et compression d'une archive avec `tar`
+- Stockage de la sauvegarde dans un emplacement dédié
+- Création d'un répertoire de restauration
+- Restauration des données depuis l'archive
+- Vérification des données restaurées
+- Contrôle de la taille et de la date de la sauvegarde
+  
   
   
