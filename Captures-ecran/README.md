@@ -77,4 +77,12 @@ Extraction de colonnes CSV :
 - Tests réseau après application de la configuration
 - Vérification de la persistance après redémarrage
 - Diagnostic d'une erreur de configuration réseau
+  ## Phase 09 - Stockage, partitions et montage
+- Ajout et identification d'un second disque
+- Création d'une partition et d'un système de fichiers
+- Identification de l'UUID
+- Montage et démontage du disque
+- Configuration du montage permanent avec `/etc/fstab`
+- Vérification du montage après redémarrage
+  
   
