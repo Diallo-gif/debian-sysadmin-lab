@@ -31,7 +31,7 @@ L'objectif est de construire progressivement une petite infrastructure Linux et 
 - [x] Comprendre le système Debian
 - [x] Administration CLI
 - [x] Recherche et filtrage
-- [x]Utilisateurs et permissions
+- [x] Utilisateurs et permissions
 - [x] Réseau et stockage
 - [x] Logs et sécurité
 - [x] SSH
