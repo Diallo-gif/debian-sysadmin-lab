@@ -109,6 +109,16 @@ Extraction de colonnes CSV :
 - Surveillance des connexions
 - Sécurisation SSH
 - Mise en place de règles de sécurité
+## Phase 13 - Administration distante avec SSH
+- Installation et démarrage du service SSH
+- Vérification du port d'écoute SSH
+- Première connexion SSH depuis le poste client
+- Vérification des journaux SSH
+- Transfert de fichier avec SCP
+- Création d'une paire de clés SSH
+- Authentification SSH par clé
+- Vérification de la clé publique et de la clé privée
+- Sécurisation de la configuration SSH
   
   
   
