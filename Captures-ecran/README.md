@@ -100,6 +100,16 @@ Extraction de colonnes CSV :
 - Restauration des données depuis l'archive
 - Vérification des données restaurées
 - Contrôle de la taille et de la date de la sauvegarde
+## Phase 12 - Sécurité Linux de base
+- Gestion des comptes et privilèges
+- Administration avec `sudo` et `visudo`
+- Contrôle des permissions
+- Configuration du pare-feu
+- Vérification des ports et services exposés
+- Surveillance des connexions
+- Sécurisation SSH
+- Mise en place de règles de sécurité
+  
   
   
   
