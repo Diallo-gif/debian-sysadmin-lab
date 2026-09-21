@@ -84,5 +84,14 @@ Extraction de colonnes CSV :
 - Montage et démontage du disque
 - Configuration du montage permanent avec `/etc/fstab`
 - Vérification du montage après redémarrage
+  ## Phase 10 - Processus, services, logs et monitoring
+- Identification et surveillance des processus
+- Surveillance CPU et mémoire
+- Gestion et arrêt des processus
+- Vérification et gestion des services avec `systemctl`
+- Consultation des journaux système avec `journalctl`
+- Filtrage des logs par service
+- Suivi des événements en temps réel
+- Analyse des événements d'authentification
   
   
