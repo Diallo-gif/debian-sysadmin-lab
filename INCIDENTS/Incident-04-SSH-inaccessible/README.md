@@ -12,7 +12,7 @@ La tentative de connexion SSH échoue avec le message `No route to host`.
 ssh alice@192.168.56.30
 ```
 
-![Échec de connexion SSH](2(20261027-115726).png)
+![Échec de connexion SSH](2.png)
 
 ## 3. Diagnostic
 
@@ -26,9 +26,9 @@ ip a
 
 Le compte Alice existe, mais l'interface réseau `ens37`, utilisée pour la communication entre les machines, est désactivée (`DOWN`).
 
-![Vérification des utilisateurs](1(20261027-115724).png)
+![Vérification des utilisateurs](1.png)
 
-![Diagnostic de l'interface réseau](3(20261027-115724).png)
+![Diagnostic de l'interface réseau](3.png)
 
 **Cause identifiée :** interface réseau `ens37` désactivée, empêchant l'accès au serveur depuis le réseau local.
 
@@ -43,7 +43,7 @@ ip a
 
 L'interface `ens37` passe à l'état `UP`.
 
-![Réactivation de l'interface réseau](3(20261027-115724).png)
+![Réactivation de l'interface réseau](3.png)
 
 ## 5. Vérification finale
 
@@ -55,7 +55,7 @@ ping 192.168.56.31
 
 **Résultat :** 3 paquets reçus, 0 % de perte.
 
-![Connectivité réseau rétablie](4(20261027-115724).png)
+![Connectivité réseau rétablie](4).png)
 
 Nouvelle tentative SSH depuis `debian-cli01` :
 
@@ -66,7 +66,7 @@ ssh alice@192.168.56.30
 
 **Résultat :** connexion SSH réussie avec le compte Alice.
 
-![Connexion SSH rétablie](5(20261027-115724).png)
+![Connexion SSH rétablie](5.png)
 
 Vérification du service SSH et du port 22 :
 
@@ -77,7 +77,7 @@ sudo ss -lntp | grep ':22'
 
 Le service SSH est actif et écoute sur le port 22.
 
-![Vérification du service SSH](6(20261027-115727).png)
+![Vérification du service SSH](6.png)
 
 ## 6. Contrôle du pare-feu
 
@@ -91,7 +91,7 @@ sudo ufw status
 
 Les captures montrent que le pare-feu UFW a été désactivé.
 
-![Contrôle du pare-feu UFW](7(20261027-115729).png)
+![Contrôle du pare-feu UFW](7.png)
 
 ## 7. Prévention
 
